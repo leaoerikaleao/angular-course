@@ -22,3 +22,16 @@ No terminal:
 ## Criar Novo Componente
 
 `ng g c nome-do-componente`
+
+Meu componente
+```import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-my-first2', // classe do css
+  templateUrl: './my-first2.component.html',  // arquivo template
+  styleUrls: ['./my-first2.component.css']  // arquivo css
+})// significa que o componente é parte do angular 2
+export class MyFirst2Component {
+
+}
+
