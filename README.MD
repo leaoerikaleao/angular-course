@@ -2,7 +2,7 @@
 
 ## Instalação
 
-Instalar última versão node js  disponível em https://nodejs.org/en/download/
+Instalar última versão node.js  disponível em https://nodejs.org/en/download/
 
 No terminal instalar:
 
@@ -15,3 +15,10 @@ No terminal:
 
 `ng new nome-do-projeto`
 
+## Rodar o projeto
+
+`ng serve`
+
+## Criar Novo Componente
+
+`ng g c nome-do-componente`
