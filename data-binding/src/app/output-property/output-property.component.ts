@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output, ViewChildren, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'counter',
@@ -10,19 +10,20 @@ export class OutputPropertyComponent implements OnInit {
   @Input() value: number = 0;
   @Output() chanceValue = new EventEmitter();
   
-  
+  @ViewChild('fildInput') fildValueInput: ElementRef;
+ 
+
   increment(){
-    this.value++;
+    this.fildValueInput.nativeElement.value++;
     this.chanceValue.emit({newValue: this.value});
   }
 
   decreases(){
-    this.value--;
+    this.fildValueInput.nativeElement.value--;
     this.chanceValue.emit({newValue: this.value});
 
   }
 
-  
 
   constructor() { }
 
