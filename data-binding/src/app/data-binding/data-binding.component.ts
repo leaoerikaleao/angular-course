@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EventEmitter } from 'protractor';
 
 @Component({
   selector: 'app-data-binding',
@@ -17,6 +18,10 @@ export class DataBindingComponent implements OnInit {
   valueSave: string = '';
   isMouseOver: boolean;
   courseName : string  = 'Angular' ;
+  initialValue : number = 15;
+
+
+
 
   buttonClick(){
     alert('Botão Clicado!');
@@ -41,6 +46,10 @@ export class DataBindingComponent implements OnInit {
 
   onMouseOverOut(){
     this.isMouseOver = !this.isMouseOver;
+  }
+
+  OnChanceValue(event){
+    console.log(event.newValue);
   }
   constructor() { }
 
