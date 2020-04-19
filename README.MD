@@ -53,3 +53,15 @@ export class MyFirst2Component {
 
 Fornecer a instância de uma classe
 @Injectable
+
+
+# Interpolação
+
+  ```
+  <article>
+        <h3>Propoerty Binding</h3>
+        <img src="{{ urlImg }}">
+        <img [src]="urlImg">
+        <img bind-src="urlImg">
+  </article>
+  ```
