@@ -24,9 +24,10 @@ No terminal:
 `ng g c nome-do-componente`
 
 Meu componente
-```import { Component } from '@angular/core';
 
-@Component({
+import { Component } from '@angular/core';
+
+```@Component({
   selector: 'app-my-first2', // classe do css
   templateUrl: './my-first2.component.html',  // arquivo template
   styleUrls: ['./my-first2.component.css']  // arquivo css
@@ -34,4 +35,13 @@ Meu componente
 export class MyFirst2Component {
 
 }
+```
+# Diretivas
 
+## Diretiva For
+
+```
+<li *ngFor="let course of courses ">
+     {{ course}}
+</li>
+```
