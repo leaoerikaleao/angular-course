@@ -65,3 +65,15 @@ Fornecer a instância de uma classe
         <img bind-src="urlImg">
   </article>
   ```
+# Notas
+Geralmenta quando se usa input property ->ngOnChanges do contrario ngOnInit
+
+
+
+
+
+
+
+
+
+

@@ -49,7 +49,7 @@ export class DataBindingComponent implements OnInit {
   }
 
   OnChanceValue(event){
-    console.log(event.newValue);
+    console.log(event.newValues);
   }
   constructor() { }
 
