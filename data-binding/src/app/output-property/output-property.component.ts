@@ -24,7 +24,6 @@ export class OutputPropertyComponent implements OnInit {
 
   }
 
-
   constructor() { }
 
   ngOnInit(): void {

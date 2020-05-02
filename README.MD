@@ -65,11 +65,42 @@ Fornecer a instância de uma classe
         <img bind-src="urlImg">
   </article>
   ```
+# Pré-processadores
+
+## Novo Projeto
+
+ ```
+ng new nome-do-projeto --style=sass
+
+ng new nome-do-projeto --style=less
+
+ng new nome-do-projeto --style=stylus
+ ```
+
+# Ng Lint Ng Teste Ng E2e
+
+ ```
+ng lint 
+
+ng new nome-do-projeto --style=less
+
+ng new nome-do-projeto --style=stylus
+ ```
+
+# Diretivas
+
+## Ng If e Hidden 
+
+Hidden exibe o conteúdo oculta na interface ao inspecionar o código - não é muito seguro
+
+Hidden - pequenas árvores de código
+
+Ng If - oculta o código mesmo ao inspecionar, porém custa mais em desempenho
+
+Ng If - pequenas árvores de código
+
 # Notas
 Geralmenta quando se usa input property ->ngOnChanges do contrario ngOnInit
-
-
-
 
 
 
